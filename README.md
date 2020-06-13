@@ -1,4 +1,4 @@
-Fyyur
+Fyyur [Udacity Full Stack Developer Project]
 -----
 
 ### Introduction
