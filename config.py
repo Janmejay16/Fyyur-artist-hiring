@@ -7,9 +7,9 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 DEBUG = True
 
 # Connect to the database
+database_name = 'REPLACE_WITH_YOUR_DATABASE_NAME'
 
-
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost:5432/fyyur_data'
+SQLALCHEMY_DATABASE_URI = 'postgresql://{your_username}:{your_password}@localhost:5432/{database_name}'.format(your_username=YOUR_USERNAME,your_password=YOUR_PASSWORD,database_name=database_name)
 
 # remove console warning
 SQLALCHEMY_TRACK_MODIFICATIONS = False
